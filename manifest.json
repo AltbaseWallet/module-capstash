@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "capstash",
+  "name": "CapStash",
+  "ticker": "CAPS",
+  "version": "0.1.9",
+  "kind": "utxo",
+  "networkId": "capstash-mainnet",
+  "decimals": 8,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "capstash-wallet",
+  "coin": {
+    "id": "capstash",
+    "name": "CapStash",
+    "ticker": "CAPS",
+    "networkId": "capstash-mainnet",
+    "supportsMemo": false,
+    "satsPerCoin": 100000000,
+    "utxoReadProfile": "scan-utxo",
+    "cryptoParams": {
+      "p2pkhPrefix": 28,
+      "p2shPrefix": 18,
+      "wifPrefix": 156,
+      "derivationPath": "m/44'/16005'/0'/0/0",
+      "bech32Hrp": "cap"
+    }
+  },
+  "icon": "icon.png"
+}
